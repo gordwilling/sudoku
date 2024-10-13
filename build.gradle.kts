@@ -26,7 +26,7 @@ kotlin {
     nativeTarget.apply {
         binaries {
             executable {
-                entryPoint = "main"
+                entryPoint = "com.gordwilling.sudoku.main"
             }
         }
     }
